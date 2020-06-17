@@ -1,0 +1,25 @@
+.rel{
+    /* background-color: rgb(223, 223, 93); */
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+img{
+    height: 200px;
+    border-radius: 5%;
+}
+
+#kittens{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    z-index: 1;
+}
+
+#parent{
+    background-color: skyblue;
+    height: 300px;
+    position: relative;
+}
+

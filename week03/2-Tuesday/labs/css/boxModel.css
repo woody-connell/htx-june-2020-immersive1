@@ -18,6 +18,7 @@
     width: 300px;
     height: 400px;
     background-color: thistle;
+    overflow: hidden;
 }
 
 .box1a{
@@ -26,7 +27,7 @@
     height: 380px;
     background-color: thistle;
     padding: 10px;
-    overflow: hidden;
+    
    
 }
 
@@ -57,4 +58,21 @@
     width: 300px;
     height: 400px;
     background-color:teal;
+}
+
+.myBox{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    border: 5px dotted black;
+    padding: 15px;
+    margin: 15px;
+}
+
+#content{
+    width: 500px;
+    background-color: white;
+    padding: 20px;
 }

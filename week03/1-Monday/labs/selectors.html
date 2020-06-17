@@ -3,6 +3,35 @@
 
 <head>
     <title>CSS Selectors</title>
+    <style>
+        p{
+            background-color: gray; 
+            color: white;
+            padding: 10px;
+        }
+
+        .liTomato{
+            background: tomato;
+            color: black;
+
+        }
+
+        .light{
+            color: white;
+            background-color: gray;
+
+
+
+        }
+
+        .dark{
+            color: black;
+            background-color: darkgrey;
+            padding: 20px;
+
+
+        }
+    </style>
 </head>
 
 <body>
@@ -12,7 +41,7 @@
     <ul>
         <li><a href="mulch.html">Spring mulch vegetable beds</a></li>
         <li><a href="potato.html">Plant out early potatoes</a></li>
-        <li><a href="tomato.html">Sow tomato seeds</a></li>
+        <li class="liTomato"> a href="tomato.html"Sow tomato seeds></a></li>
         <li><a href="beet.html">Sow beet seeds</a></li>
         <li><a href="zucchini.html">Sow zucchini seeds</a></li>
         <li><a href="rhubarb.html">Deadhead rhubarb flowers</a></li>
@@ -20,6 +49,11 @@
     <p class="note">This page was written by <a href="mailto:ivy@example.org">ivy@example.org</a> for <a
             href="http://www.example.org">Example</a>.</p>
     <p><a href="#top">Top of page</a></p>
+
+    <p class="light">This is example text in the light style class.</p>
+    <p class="dark">This is example text in the dark style clase.</p>
+        This is a test for the new paragraph styling.
+    </p>
 </body>
 
 </html>

@@ -1,17 +1,85 @@
-/* lab */
+ /* *{
+    margin: 0px;
+} */
 
 .container{
-    
     height: 1500px;
     background-color: turquoise;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .item{
-
-    height: 150px;
-    background-color:tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; 
+    width: 150px;
+    background-color: tomato;
     margin: 10px;
     font-size: 30px;
     color: white;
+    order: 5;
+    
+} 
 
+.order1{
+    order: 1;
+}
+
+.order{
+    order: 2;
+}
+
+.order{
+    order: 3;
+}
+
+.order{
+    order: 4;
+}
+
+.order{
+    order: 5;
+}
+
+*{
+    margin: 0px;
+}
+
+header{
+    background-color: purple;
+    height: 10vh;
+
+}
+
+main{
+    background-color: pink;
+    height: 80vh;
+    display: flex;
+    align-items: stretch;
+    
+}
+
+footer{
+    background-color: green;
+    height: 10vh;
+
+}
+
+.nav{
+    width: 20vw;
+    background-color: orange;
+}
+
+.innerMain{
+    width: 60vw;
+    background-color: yellow;
+}
+
+.ads{
+    background-color: red;
+    width: 20vw;
 }

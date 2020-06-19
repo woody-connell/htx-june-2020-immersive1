@@ -1,0 +1,16 @@
+ #advanced-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.advanced-nav-anchor{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button-text{
+    display: flex;
+    flex-direction: column;
+    
+}

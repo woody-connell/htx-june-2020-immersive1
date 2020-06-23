@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0px;
 }
@@ -6,4 +7,41 @@
     height: 500px;
     width: 100vw;
     overflow: hidden;
+=======
+
+body {
+    margin: 0px;
+
+}
+
+
+.header{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.z10{
+    z-index: 10;
+}
+
+.z15{
+    z-index: 15;
+}
+
+.z20{
+    z-index: 20;
+}
+
+.opacity{
+    opacity: 70%;
+}
+
+.top{
+    top: 0px;
+}
+
+.h500{
+    height: 500px;
+>>>>>>> c3cbb1820fb88147af3f4d4bc27f9d55743e5b37
 }

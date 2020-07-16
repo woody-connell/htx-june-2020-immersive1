@@ -1,5 +1,3 @@
-
-
 # 1. Create a new list called "planets" that holds all of the names of the planets
 # in our solar system. Print the list of planets on the command line.
 

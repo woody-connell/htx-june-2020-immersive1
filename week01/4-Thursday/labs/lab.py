@@ -1,12 +1,11 @@
-
-
 # 1. Write a function called "greeting" that prints "hello world" to the console
-
+def greeting():
+  print('hello world')
 
 # 2. Execute (call/ run) the "greeting function"
+greeting()
 
 # 3. Reduce this code using functions
-
 print("Day 1: Students in SRE class")
 print("lecture: git 101")
 print("Shu")
@@ -26,9 +25,21 @@ print("Thomas")
 print("Gustavo")
 print("Alim")
 
+def printStudents():
+  print('''
+Shu
+Thomas
+Gustavo
+Alim
+  ''')
+
+lectures = ['git 101', 'git 102', 'python 101']
+
+for i in lectures:
+  day = i + 1
+  print(f"Day {day}: Students in SRE class\nlecture: {lectures[i]}")
 
 #4 Reduce the print statements for the  todolist code we worked on yesterday with a function
-
 todos = []
 index = 0
 while True :

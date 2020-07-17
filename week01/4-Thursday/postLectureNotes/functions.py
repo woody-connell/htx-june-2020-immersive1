@@ -1,11 +1,4 @@
 
-
-# def greeting():
-#     print('Hello World')
-
-
-# greeting()
-
 # def separateRuns():
 #     print('*' * 20)
 

@@ -1,11 +1,4 @@
 
-
-# Functions
-
-def greeting():
-    print("Hello World")
-
-
 def f(x):
     return 2 * x + 1
 
@@ -22,28 +15,6 @@ for x in range(-3, 5):
         format(
               x=x, y=f(x), z=g(x)
         ))
-
-# Reduce the code
-
-# How can we reduce this code?
-print("Day 1: Students in SRE class")
-print("lecture: git 101")
-print("Shu")
-print("Thomas")
-print("Gustavo")
-print("Alim")
-print("Day 2: Students in SRE class")
-print("lecture: git 102")
-print("Shu")
-print("Thomas")
-print("Gustavo")
-print("Alim")
-print("Day 3: Students in SRE class")
-print("lecture: python 101")
-print("Shu")
-print("Thomas")
-print("Gustavo")
-print("Alim")
 
 
 # Building a function 

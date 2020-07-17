@@ -1,33 +1,3 @@
-
-
-# 1. Write a function called "greeting" that prints "hello world" to the console
-
-
-# 2. Execute (call/ run) the "greeting function"
-
-
-# 3. Reduce this code using functions
-
-print("Day 1: Students in SRE class")
-print("lecture: git 101")
-print("Shu")
-print("Thomas")
-print("Gustavo")
-print("Alim")
-print("Day 2: Students in SRE class")
-print("lecture: git 102")
-print("Shu")
-print("Thomas")
-print("Gustavo")
-print("Alim")
-print("Day 3: Students in SRE class")
-print("lecture: python 101")
-print("Shu")
-print("Thomas")
-print("Gustavo")
-print("Alim")
-
-
 # 4 Reduce the print statements for the  todolist code we worked on yesterday with a function
 
 todos = []

@@ -1,5 +1,5 @@
 {
-  "name": "lab2",
+  "name": "classwork",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.4"
+    "express": "^4.17.1"
   }
 }
